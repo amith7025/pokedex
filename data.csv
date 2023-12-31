@@ -1,0 +1,21 @@
+Pokemon,Type,Attack,Defense,HP,Special Attack,Special Defense,Speed
+Voltorb,Electric,,50,40,55,55,100
+Psyduck,Water,,52,48,65,50,55
+Blastoise,Water,,83,100,85,105,78
+Charizard,Fire/Flying,,84,78,109,85,100
+Pikachu,Electric,,55,40,50,50,90
+Wartortle,Water,,63,80,65,80,58
+Nidoking,Poison/Ground,92,77,81,85,75,85
+Pidgeot,Normal/Flying,80,75,83,70,70,101
+Gengar,Ghost/Poison,65,60,60,130,75,110
+Kingler,Water,,130,115,50,50,75
+Diglett,Ground,,55,25,35,45,95
+Electrode,Electric,,50,70,80,80,140
+Poliwag,Water,,50,40,40,40,90
+Dragonite,Dragon/Flying,134,95,91,100,100,80
+Tauros,Normal,,100,95,75,40,110
+Magnemite,Electric/Steel,,35,70,95,120,70
+Bulbasaur,Grass/Poison,49,49,45,65,65,45
+Golem,Rock/Ground,120,130,80,55,65,45
+Jigglypuff,Normal/Fairy,45,20,115,45,25,20
+Abra,Psychic,,20,15,105,55,90
