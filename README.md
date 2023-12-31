@@ -17,6 +17,7 @@ Follow these steps to set up and run the Pokedex app on your machine:
 2. **Install the required dependencies:**
 
     ```bash
+    python
     torch
     gradio
     torchvision
@@ -48,7 +49,7 @@ Gradio is seamlessly integrated into the app to provide a user-friendly interfac
 
 ## Screenshots
 
-![Screenshot 1](screenshots/Screenshot_1.png)
+![Screenshot 1](https://github.com/amith7025/pokedex/blob/main/Screenshot%202023-12-31%20191128.png)
 *Caption: Pokémon details prediction with Pokedex.*
 
 ![Screenshot 2](screenshots/Screenshot_2.png)
