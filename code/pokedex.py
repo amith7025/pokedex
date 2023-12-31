@@ -69,9 +69,10 @@ def prediction(text):
     prediction = model(transformed.unsqueeze(0))
     prob = torch.softmax(prediction,dim=1)
     output = torch.argmax(prob,dim=1)
-    return label[output.item()]
+    ans =  label[output.item()]
+    return df.loc[df['Pokemon'] == output]
 
 if __name__ == '__main__':
     text = input('enter the location of img')
     output = prediction(text)
-    print(df.loc[df['Pokemon'] == output])
+    print(output)
