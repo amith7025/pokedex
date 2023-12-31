@@ -70,14 +70,41 @@ def prediction(img):
     prob = torch.softmax(prediction,dim=1)
     output = torch.argmax(prob,dim=1)
     ans =  label[output.item()]
-    content = df.loc[df['Pokemon'] == output]
-    content_string = content.to_string(index=False)
-    return content_string
+    content = df.loc[df['Pokemon'] == ans]
+    pokemon_name, pokemon_type, attack, defense, hp, special_attack, special_defense, speed = content.values.flatten()
+
+    return img,pokemon_name, pokemon_type, attack, defense, hp, special_attack, special_defense, speed
+
+
+app_description = """
+🌟 Welcome to the magical world of Pokémon with Amith E K's Pokedex app! Immerse yourself in this meticulously crafted application, your ultimate companion for all things Pokémon. 🚀
+
+Explore the Pokedex's visually stunning interface, designed with precision and passion by Amith E K. This feature-rich app combines cutting-edge technology with an extensive Pokemon database, bringing your favorite creatures to life! 🎮
+
+⚡️ Discover detailed information on each Pokemon, including type, attack, defense, HP, special attacks, special defense, and speed. The intuitive image input feature allows you to effortlessly identify Pokemon and dive deep into their fascinating details.
+
+🌈 Whether you're a seasoned Pokemon Master or just starting your adventure, Amith E K's Pokedex is designed for you. Stay connected with your Pokemon journey, discover new species, and catch 'em all with style and ease.
+
+🔍 Ready to embark on the ultimate Pokemon adventure? Download Amith E K's Pokedex app now and become the very best, like no one ever was! 🌟📱 #PokemonMaster #PokedexAdventure #GottaCatchEmAll
+"""
 
 demo = gr.Interface(
     fn=prediction,
     inputs=gr.Image(type='pil'),
-    outputs='text' 
+    outputs=[
+        gr.Image(type="pil", label="Pokemon"),
+        gr.Text(label="Pokemon Name"),
+        gr.Text(label="Type"),
+        gr.Text(label="Attack"),
+        gr.Text(label="Defense"),
+        gr.Text(label="HP"),
+        gr.Text(label="Special Attack"),
+        gr.Text(label="Special Defense"),
+        gr.Text(label="Speed")
+    ],
+    title='Pokedex',
+    description=app_description,
+    article='Created by Amith E K'
 )
 
 if __name__ == '__main__':
