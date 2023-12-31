@@ -1,0 +1,6 @@
+python
+torch
+gradio
+torchvision
+pandas
+numpy
