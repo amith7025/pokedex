@@ -52,7 +52,7 @@ Gradio is seamlessly integrated into the app to provide a user-friendly interfac
 ![Screenshot 1](https://github.com/amith7025/pokedex/blob/main/Screenshot%202023-12-31%20191128.png)
 *Caption: Pokémon details prediction with Pokedex.*
 
-![Screenshot 2](screenshots/Screenshot_2.png)
+![Screenshot 2](https://github.com/amith7025/pokedex/blob/main/Screenshot%202023-12-31%20191200.png)
 *Caption: User-friendly interface for interacting with the app.*
 
 ## Contributing
