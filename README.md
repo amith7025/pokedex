@@ -10,23 +10,27 @@ Follow these steps to set up and run the Pokedex app on your machine:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/[Your Username]/pokedex.git
+    git clone https://github.com/amith7025/pokedex.git
     cd pokedex
     ```
 
 2. **Install the required dependencies:**
 
     ```bash
-    pip install -r requirements.txt
+    torch
+    gradio
+    torchvision
+    pandas
+    numpy
     ```
 
 3. **Run the Pokedex app:**
 
     ```bash
-    python code/main.py
+    python code/app.py
     ```
 
-    Visit [http://localhost:5000](http://localhost:5000) in your web browser to explore the Pokedex app.
+    Visit [http://localhost:7860](http://localhost:7860) in your web browser to explore the Pokedex app.
 
 ## Features
 
@@ -36,7 +40,7 @@ Our Pokedex app leverages a CNN architecture for accurate and efficient image re
 
 ### Data Processing
 
-The `data_processing.py` script handles the processing of raw Pokémon data, preparing it for training the CNN model. This includes data cleaning, normalization, and augmentation.
+The `pokemon_analysis.ipynb` script handles the processing of raw Pokémon data, preparing it for training the CNN model. This includes data cleaning, normalization, and augmentation.
 
 ### Gradio Integration
 
