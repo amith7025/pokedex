@@ -17,12 +17,7 @@ Follow these steps to set up and run the Pokedex app on your machine:
 2. **Install the required dependencies:**
 
     ```bash
-    python
-    torch
-    gradio
-    torchvision
-    pandas
-    numpy
+    pip install -r requirements.txt
     ```
 
 3. **Run the Pokedex app:**
