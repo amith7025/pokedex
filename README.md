@@ -55,7 +55,7 @@ Gradio is seamlessly integrated into the app to provide a user-friendly interfac
 ![Screenshot 2](https://github.com/amith7025/pokedex/blob/main/Screenshot%202023-12-31%20191200.png)
 *Caption: User-friendly interface for interacting with the app.*
 
-![Screenshot 2](![Screenshot 2](https://github.com/amith7025/pokedex/blob/main/Screenshot%202023-12-31%20191200.png)
+![Screenshot 2](![Screenshot 2](https://github.com/amith7025/pokedex/blob/main/Screenshot%202023-12-31%20191232.png)
 *Caption: User-friendly interface for interacting with the app.*
 
 *Caption: User-friendly interface for interacting with the app.*
